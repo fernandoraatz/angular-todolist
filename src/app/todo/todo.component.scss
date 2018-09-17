@@ -1,0 +1,68 @@
+/*
+|--------------------------------------------------------------------------
+| Card
+|--------------------------------------------------------------------------
+*/
+
+.card-item{
+    background-color: #d65261;
+    color: white;
+    width:300px;
+    min-height: 145px;
+    float: left;
+    margin-right:2%;
+    padding:16px; 
+    position: relative;
+    margin-bottom: 2%;
+
+    &.done{
+      background-color: #4c8e4c;
+    }
+}
+
+.card-title{
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.card-description{
+    font-size: 0.95em;
+}
+
+.card-options{ 
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Search
+|--------------------------------------------------------------------------
+*/
+
+.search-box{
+    margin-bottom:20px;
+  
+      .container{
+        width:100%;
+      }
+    
+        .search{
+              float: left;
+               margin-right: 10px;
+               cursor: pointer;
+        }
+    
+        .form-field_medium{
+          height:28px;
+        }
+    }
+    
+    .search-fade-enter, .search-fade-leave-active {
+      opacity: 0
+    }
+    
+    .search-fade-enter-active, .search-fade-leave-active {
+      transition: opacity .4s
+    }
