@@ -13,7 +13,7 @@ import { ButtonComponent } from './button/button.component';
 
 import { AppRoutingModule } from './app.routes';
 
-import { TodoService } from './todo.service';
+import { TodoService } from './services/todo.service';
 import { SearchPipe } from './search.pipe';
 
 @NgModule({

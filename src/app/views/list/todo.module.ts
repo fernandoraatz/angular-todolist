@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TodoComponent } from './todo.component';
 
-import { TodoService } from '../todo.service';
+import { TodoService } from '../services/todo.service';
 
 @NgModule({
   imports: [

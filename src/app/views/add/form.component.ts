@@ -7,7 +7,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
-import { TodoService } from '../todo.service';
+import { TodoService } from '../services/todo.service';
 import { Todo } from '../todo/todo.model';
 
 
