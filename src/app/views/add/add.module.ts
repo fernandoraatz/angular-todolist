@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { FormComponent } from './form.component';
+import { FormComponent } from './add.component';
 
 @NgModule({
   imports: [

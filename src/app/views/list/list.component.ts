@@ -7,7 +7,7 @@ import { TodoService } from '../services/todo.service';
   styleUrls: ['./todo.component.scss']
 })
 
-export class TodoComponent implements OnInit {
+export class ListComponent implements OnInit {
 
   itens; 
   inputValue:string = ""

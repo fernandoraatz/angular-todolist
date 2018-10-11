@@ -1,4 +1,4 @@
-import { TodoModule } from './todo.module';
+import { TodoModule } from './list.module';
 
 describe('TodoModule', () => {
   let todoModule: TodoModule;

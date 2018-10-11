@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TodoComponent } from './todo.component';
+import { ListComponent } from './list.component';
 
 import { TodoService } from '../services/todo.service';
 
@@ -10,7 +10,7 @@ import { TodoService } from '../services/todo.service';
     CommonModule
   ],
   exports: [
-    TodoComponent
+    ListComponent
   ],
   providers: [TodoService],
   declarations: []
