@@ -7,14 +7,14 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
-import { TodoService } from '../services/todo.service';
-import { Todo } from '../todo/todo.model';
+import { TodoService } from '../../services/todo.service';
+import { Todo } from '../../models/todo/todo.model';
 
 
 @Component({
   selector: 'app-form',
-  templateUrl: './form.component.html',
-  styleUrls: ['./form.component.scss']
+  templateUrl: './add.component.html',
+  styleUrls: ['./add.component.scss']
 })
 export class FormComponent implements OnInit {
 

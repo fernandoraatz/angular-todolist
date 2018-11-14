@@ -1,8 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { ListComponent } from './todo/todo.component';
+// import { ListComponent } from '../views/list/list.component';
 
 @Pipe({
-  name: 'search'
+  name: 'search' 
 })
 export class SearchPipe implements PipeTransform {
 

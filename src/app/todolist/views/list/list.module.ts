@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { ListComponent } from './list.component';
 
-import { TodoService } from '../services/todo.service';
+import { TodoService } from '../../services/todo.service';
 
 @NgModule({
-  imports: [
+  imports: [ 
     CommonModule
   ],
   exports: [

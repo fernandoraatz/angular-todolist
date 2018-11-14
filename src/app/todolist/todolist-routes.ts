@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ListComponent } from './todolist/views/list/list.component'
-import { FormComponent } from './todolist/views/add/add.component'
+import { ListComponent } from './views/list/list.component'
+import { FormComponent } from './views/add/add.component'
 
 const APP_ROUTES: Routes = [
      { 
          path: '', 
-         component: ListComponent 
+         component: ListComponent  
      }, 
      {  
          path: 'add', 
