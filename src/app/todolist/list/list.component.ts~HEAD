@@ -1,15 +1,9 @@
-/*
-|--------------------------------------------------------------------------
-| Model - Main
-|--------------------------------------------------------------------------
-*/ 
-
 import { Component, OnInit } from '@angular/core';
 import { TodoService } from '../../services/todo.service';
 
 @Component({
   selector: 'app-todo',
-  templateUrl: './list.component.html', 
+  templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']
 })
 
@@ -31,15 +25,11 @@ export class ListComponent implements OnInit {
     }) 
   }
 
-  // List 
-
   showPosts(db){
       db.findAll().then( itemsList => {
         this.itens = itemsList;
     }); 
   }
-
-  // Delete 
 
   deleteData(event, itemId){
     event.preventDefault()
@@ -51,8 +41,6 @@ export class ListComponent implements OnInit {
 
   }
 
-  // Check
-
   checkData(event, itemId){ 
       event.preventDefault()
       this.service.find(itemId).then( item => {
@@ -62,6 +50,10 @@ export class ListComponent implements OnInit {
           })
       });
 
+  }
+
+  editData(){
+      console.log('editando')
   }
 
 }

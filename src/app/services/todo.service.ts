@@ -5,16 +5,16 @@ import { Injectable } from '@angular/core';
 })
 export class TodoService {
 
-  request;
-  db;
-  name;
-  table;
-  selectedItem;
+  request: any;
+  db: any;
+  name: any;
+  table: any;
+  selectedItem: any;
 
   constructor(){
     this.name = 'toDo',
     this.table = 'ToDoItems'
-}
+  }
 
 
     // Init Database
